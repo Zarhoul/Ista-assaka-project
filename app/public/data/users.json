@@ -1,0 +1,529 @@
+[
+    {
+        "id": 1,
+        "lastName":"Elhoussaine",
+        "firstName":"Elbaqqaly",
+        "dateNaissance": "1993-01-03",
+        "cin":"JK40525",
+        "email": null,
+        "address": null,
+        "telephone":"0657641300",
+        "username": "JK40525",
+        "password": "JK40525",
+        "cef": "199301030014",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-05T10:00:00Z",
+        "updated_at": "2023-04-05T10:00:00Z",
+        "deleted_at": null
+    },
+    {
+        "id": 2,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },
+    {
+        "id": 3,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },
+    {
+        "id": 4,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },
+    {
+        "id": 5,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 6,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 7,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 8,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 9,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 10,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 11,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 12,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 13,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "4",
+                "name": "stagiaire"
+            }
+        ],
+        "filiere": [
+            {
+                "idFormation": 1,
+                "NameFormation": "Développement Digital",
+                "abbreviation": "DEV",
+                "NiveauFormation": "Technicien spécialisé",
+                "TypeFormation": "Diplômante",
+                "AnneeEtude": "Première année",
+                "ModeFormation": ["Cours du jour"],
+                "NiveauScolaire": "Bachelier"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 14,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "3",
+                "name": "formateur"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 15,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "cef": "200010220140",
+        "role": [
+            {
+                "idRole": "3",
+                "name": "formateur"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 16,
+        "lastName":"Elhoussaine",
+        "firstName":"Elbaqqaly",
+        "dateNaissance": "1993-01-03",
+        "cin":"JK40525",
+        "email": null,
+        "address": null,
+        "telephone":"0657641300",
+        "username": "JK40525",
+        "password": "JK40525",
+        "cef": "199301030014",
+        "role": [
+            {
+                "idRole": "3",
+                "name": "formateur"
+            }
+        ],
+        "created_at": "2023-04-05T10:00:00Z",
+        "updated_at": "2023-04-05T10:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 17,
+        "lastName":"John",
+        "firstName":"Doe",
+        "dateNaissance": "2000-10-22",
+        "cin":"AB12345",
+        "telephone":"0612345678",
+        "username": "AB12345",
+        "password": "AB12345",
+        "role": [
+            {
+                "idRole": "2",
+                "name": "conseilleur"
+            }
+        ],
+        "created_at": "2023-04-07T16:00:00Z",
+        "updated_at": "2023-04-07T16:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 18,
+        "lastName":"Elhoussaine",
+        "firstName":"Elbaqqaly",
+        "dateNaissance": "1993-01-03",
+        "cin":"JK40525",
+        "email": null,
+        "address": null,
+        "telephone":"0657641300",
+        "username": "JK40525",
+        "password": "JK40525",
+        "role": [
+            {
+                "idRole": "2",
+                "name": "conseilleur"
+            }
+        ],
+        "created_at": "2023-04-05T10:00:00Z",
+        "updated_at": "2023-04-05T10:00:00Z",
+        "deleted_at": null
+    },{
+        "id": 19,
+        "lastName":"Elhoussaine",
+        "firstName":"Elbaqqaly",
+        "dateNaissance": "1993-01-03",
+        "cin":"JK40525",
+        "email": null,
+        "address": null,
+        "telephone":"0657641300",
+        "username": "admin",
+        "password": "password",
+        "role": [
+            {
+                "idRole": "1",
+                "name": "admin"
+            }
+        ],
+        "created_at": "2023-04-05T10:00:00Z",
+        "updated_at": "2023-04-05T10:00:00Z",
+        "deleted_at": null
+    }
+]

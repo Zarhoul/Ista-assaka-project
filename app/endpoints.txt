@@ -1,0 +1,59 @@
+v0/auth
+	GET			=> get user data
+	POST		=> authentificate
+	PUT			=> modification request
+	DELETE	=> logout
+
+v0/user
+	GET			=> get users [role : trainer || admin] [trainer can view trainees only]
+	POST		=> add user [role : admin]
+	PUT			=> modify user [role : admin]
+	DELETE	=> delete user [role : admin]
+----------------------------explication
+Le point de terminaison v0/user semble être un point de terminaison API pour la gestion des utilisateurs au sein d'un système. Voici une brève explication des différentes méthodes HTTP et de leurs actions correspondantes :
+
+GET : Cette méthode est utilisée pour récupérer les données utilisateur du système. Seuls les utilisateurs ayant les rôles de « formateur » ou « admin » peuvent accéder à ce point de terminaison. Les formateurs ne peuvent afficher que les données des stagiaires.
+
+POST : Cette méthode est utilisée pour ajouter un nouvel utilisateur au système. Seuls les utilisateurs ayant le rôle "admin" peuvent accéder à ce point de terminaison.
+
+PUT : Cette méthode est utilisée pour modifier les données d'un utilisateur existant dans le système. Seuls les utilisateurs ayant le rôle "admin" peuvent accéder à ce point de terminaison.
+
+SUPPRIMER : Cette méthode est utilisée pour supprimer un utilisateur existant du système. Seuls les utilisateurs ayant le rôle "admin" peuvent accéder à ce point de terminaison.
+
+Il convient de noter que l'API peut avoir des exigences ou des restrictions supplémentaires au-delà de ce qui est spécifié ici, comme le format des données à envoyer ou le niveau d'autorisation nécessaire pour certaines actions.
+---------------------------------------------------------
+v0/role
+	GET			=> --
+	POST		=> --
+	PUT			=> change user roles [role : admin] PUT v0/role
+	DELETE	=> --
+
+v0/info
+	GET			=> ( v0/info/{target} ) get {target} info
+	POST		=> add info
+	PUT			=> mofidy info
+	DELETE	=> delete info
+
+v0/news
+	GET			=> (v0/news/{?n}) get first 10 news [skip {n} times / defaults to 0]
+	POST		=> add news [role : post || admin] (role "post" only sends a request for the admin to validate)
+	PUT			=> modify news [role : post || admin] (role "post" only sends a request for the admin to validate)
+	DELETE	=> delete news [role : post || admin] (role "post" only sends a request for the admin to validate)
+
+v0/data
+	GET 		=> generate database backup
+	POST 		=> import data from uploaded file (if conflict, all is aborted) [role : admin]
+	PUT 		=> --
+	DELETE	=> clear data [role : admin]
+
+v0/document
+	GET 		=> (v0/document) get a list of all available document requests and their status.
+	POST 		=> ask for a document (data integrity is checked in the backend)
+	PUT 		=> modify document request status [role : admin]
+	DELETE	=> --
+
+v0/log
+	GET 		=> get log [role : admin]
+	POST 		=> --
+	PUT 		=> --
+	DELETE	=> clear log [role : admin]

@@ -1,0 +1,93 @@
+auth(#user, token, time) // token is unique and #user refers to user's id
+
+// make an event that periodically deletes tokens that are too old (1 month)
+
+user(id, firstname, lastname, email, password, #profile) // profile refers to file id
+
+user_roles(#user, #role)
+
+roles(id, name)
+
+info(id, title, date, content)
+
+news(id, title, date, content, #attachment) // attachment refers to file id 
+
+file(id, name, date) done 50%
+
+log(id, date, description) done 50%
+
+document(id, date, data, status, #user)//done 50%
+auth_roles(id,name,#roles)  done//50%
+
+// add event to delete old documents (1 year)
+trianee(id,firstname,lastname,diplomat,CIN,CEF,CNE)  done//50%
+--------------------------------------------------------------
+Bien sûr, voici un exemple de code Laravel pour l’API de gestion des utilisateurs avec les points de terminaison et les rôles mentionnés :
+
+php
+Copy code
+// GET /users (Trainer or Admin)
+Route::get('/users', function () {
+    $user = Auth::user();
+    if ($user->role === 'trainer') {
+        $users = User::where('role', 'trainee')->get();
+    } elseif ($user->role === 'admin') {
+        $users = User::all();
+    }
+    return response()->json($users);
+})->middleware('auth');
+
+// POST /users (Admin)
+Route::post('/users', function (Request $request) {
+    $user = new User;
+    $user->name = $request->name;
+    $user->email = $request->email;
+    $user->password = bcrypt($request->password);
+    $user->role = $request->role;
+    $user->save();
+    return response()->json(['message' => 'User created successfully']);
+})->middleware(['auth', 'admin']);
+
+// PUT /users/{id} (Admin)
+Route::put('/users/{id}', function (Request $request, $id) {
+    $user = User::find($id);
+    $user->name = $request->name;
+    $user->email = $request->email;
+    $user->password = bcrypt($request->password);
+    $user->role = $request->role;
+    $user->save();
+    return response()->json(['message' => 'User updated successfully']);
+})->middleware(['auth', 'admin']);
+
+// DELETE /users/{id} (Admin)
+Route::delete('/users/{id}', function ($id) {
+    $user = User::find($id);
+    $user->delete();
+    return response()->json(['message' => 'User deleted successfully']);
+})->middleware(['auth', 'admin']);
+Notez que ce code suppose que vous avez déjà configuré le middleware d’authentification Laravel pour protéger vos itinéraires. Le middleware garantira que seuls les utilisateurs authentifiés peuvent accéder aux itinéraires, tandis que le middleware garantira que seuls les utilisateurs ayant le rôle peuvent accéder à certains points de terminaison.authadminadmin
+
+En outre, le mot de passe est stocké en toute sécurité à l’aide de la fonction, qui hache le mot de passe avant de le stocker dans la base de données.bcrypt()
+
+
+---------------------------------------------------------Il est possible d'installer plusieurs systèmes d'exploitation, tels que Linux et Windows, sur un même PC en utilisant une méthode appelée "dual-boot". Voici les étapes à suivre :
+
+Créer une sauvegarde de toutes vos données importantes car l'installation d'un nouveau système d'exploitation peut effacer toutes les données de votre disque dur.
+
+Télécharger les fichiers ISO des systèmes d'exploitation Linux et Windows que vous souhaitez installer.
+
+Graver les fichiers ISO sur des disques ou des clés USB bootables.
+
+Insérer le disque ou la clé USB d'installation de Windows dans votre PC et redémarrer le PC. Suivez les instructions d'installation de Windows et créez une partition pour Windows.
+
+Insérer le disque ou la clé USB d'installation de Linux dans votre PC et redémarrez le PC. Sélectionnez l'option "Installer Linux" et suivez les instructions. Pendant l'installation, créez une partition pour Linux.
+
+Après l'installation de Linux, votre ordinateur devrait démarrer directement sur Linux. Pour accéder à Windows, redémarrez votre ordinateur et sélectionnez Windows dans le menu de démarrage.
+
+7
+php artisan make:controller UserController --api
+php artisan make:model -mc Controller --api
+ 
+$ curl -v localhost:8000/api/user?token=65c8608803d2220b49e98d3fc23be1780ff0d2f3ade2ce7df364b6ba14ce57dd
+$ curl -v localhost:8000/api/auth -d "username=test&password=password"                     
+ $ curl -v localhost:8000/api/user                                                                                                         

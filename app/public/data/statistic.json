@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Stagiaires",
+        "number": "1000",
+        "icon": "/icons/Stagiaires-Icon.svg"
+    },
+    {
+        "id": "2",
+        "title": "Formateurs",
+        "number": "24",
+        "icon": "/icons/Formateurs-Icon.svg"
+    },
+    {
+        "id": "3",
+        "title": "Filières",
+        "number": "30",
+        "icon": "/icons/Filieres-Icon.svg"
+    }
+]
